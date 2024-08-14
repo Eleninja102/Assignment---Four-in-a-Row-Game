@@ -113,7 +113,7 @@ export default function Board(){
 					<div className="board-row">
 					{
 						row.map((item, colIdx)=>(
-							<Square winningTile = {winner ? winner.includes(colIdx + rowIdx * 7): false} value = {item} onSquareClick={() => handleClick(rowIdx, colIdx)}/>
+							<Square key={colIdx + rowIdx * board[0].length} winningTile = {winner ? winner.includes(colIdx + rowIdx * 7): false} value = {item} onSquareClick={() => handleClick(rowIdx, colIdx)}/>
 						))
 					}
 					</div>
@@ -126,7 +126,7 @@ export default function Board(){
 
 
 
-function Square({value, onSquareClick, winningTile}){
+function Square({value, onSquareClick, winningTile, key}){
 	// //const [value, setValue] = useState(null)
 	// // let squareValue = "X";
 	// function handleClick(){

@@ -8,7 +8,7 @@ This is a local multiplayer Four in a Row game built by me for a Software Engine
 <img width="574" alt="Screenshot 2024-08-14 at 4 24 33 PM" src="https://github.com/user-attachments/assets/dee2337f-3891-4b8e-a435-07c3373e2d74">
 
 ## Technologies
-NodeJS - Used mange the packages
-React - Used to render the game and make it interactive
-CSS - Used to make the website "pretty"
+- NodeJS - Used mange the packages
+- React - Used to render the game and make it interactive
+- CSS - Used to make the website "pretty"
 

@@ -1,3 +1,5 @@
+[Check out the repository](https://github.com/Eleninja102/Assignment--Four-in-a-Row-Game)
+
 ## Desciption 
 This is a local multiplayer Four in a Row game built by me for a Software Engineering 2 class. It includes the ability to load various board game states using a navabar. It uses a math formula I generated when I couldn't sleep to check if someone won or not. 
 
